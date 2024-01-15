@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-58.4869978,-34.5155856],[-58.5048035,-34.5101921],[-58.5245026,-34.5166073],[-58.524419,-34.5288041],[-58.5039937,-34.5342148],[-58.48627,-34.5281715],[-58.4869978,-34.5155856]]]},"properties":{"name":"Alquileres_1","description":"Zona cercana a la planta","styleUrl":"#poly-795548-1200-77","fill-opacity":0.30196078431372547,"fill":"#795548","stroke-opacity":1,"stroke":"#795548","stroke-width":1.2}}
+]}
