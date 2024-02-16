@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Regiones Ventas</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-1200-120-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>78d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-1200-120-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>78d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-1200-120">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-1200-120-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-1200-120-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-1200-117-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>75589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-1200-117-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>75589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-1200-117">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-1200-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-1200-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-C2185B-1200-110-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6e5b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-C2185B-1200-110-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6e5b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-C2185B-1200-110">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-C2185B-1200-110-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-C2185B-1200-110-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-1200-115-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-1200-115-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-1200-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-1200-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-1200-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-1200-184-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>b800eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FFEA00-1200-184-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>b800eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-1200-184-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-1200-184-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-1200-184-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Region1</name>
+      <Placemark>
+        <name/>
+        <description><![CDATA[descripción: Zona 4<br>stroke: #555555<br>stroke-width: 2<br>stroke-opacity: 1<br>fill: #e2f202<br>fill-opacity: 0.5<br>Zona: <br>zona: ]]></description>
+        <styleUrl>#poly-C2185B-1200-110</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Zona 4</value>
+          </Data>
+          <Data name="stroke">
+            <value>#555555</value>
+          </Data>
+          <Data name="stroke-width">
+            <value>2</value>
+          </Data>
+          <Data name="stroke-opacity">
+            <value>1</value>
+          </Data>
+          <Data name="fill">
+            <value>#e2f202</value>
+          </Data>
+          <Data name="fill-opacity">
+            <value>0.5</value>
+          </Data>
+          <Data name="Zona">
+            <value/>
+          </Data>
+          <Data name="zona">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -58.394502,-34.631794,0
+                -58.396053,-34.631856,0
+                -58.397588,-34.632044,0
+                -58.399094,-34.632354,0
+                -58.400556,-34.632784,0
+                -58.401959,-34.63333,0
+                -58.40329,-34.633987,0
+                -58.404537,-34.634748,0
+                -58.405688,-34.635605,0
+                -58.40673,-34.636552,0
+                -58.407655,-34.637577,0
+                -58.408453,-34.638673,0
+                -58.409117,-34.639827,0
+                -58.40964,-34.64103,0
+                -58.410018,-34.642269,0
+                -58.410246,-34.643532,0
+                -58.410322,-34.644808,0
+                -58.410246,-34.646084,0
+                -58.410019,-34.647347,0
+                -58.409642,-34.648586,0
+                -58.409119,-34.649789,0
+                -58.408455,-34.650944,0
+                -58.407657,-34.652039,0
+                -58.406733,-34.653065,0
+                -58.40569,-34.654012,0
+                -58.40454,-34.65487,0
+                -58.403293,-34.655631,0
+                -58.401961,-34.656287,0
+                -58.400557,-34.656834,0
+                -58.399095,-34.657264,0
+                -58.397589,-34.657574,0
+                -58.396053,-34.657762,0
+                -58.394502,-34.657824,0
+                -58.392952,-34.657762,0
+                -58.391416,-34.657574,0
+                -58.38991,-34.657264,0
+                -58.388448,-34.656834,0
+                -58.387044,-34.656287,0
+                -58.385712,-34.655631,0
+                -58.384465,-34.65487,0
+                -58.383315,-34.654012,0
+                -58.382272,-34.653065,0
+                -58.381348,-34.652039,0
+                -58.38055,-34.650944,0
+                -58.379886,-34.649789,0
+                -58.379363,-34.648586,0
+                -58.378986,-34.647347,0
+                -58.378759,-34.646084,0
+                -58.378683,-34.644808,0
+                -58.378759,-34.643532,0
+                -58.378987,-34.642269,0
+                -58.379364,-34.64103,0
+                -58.379888,-34.639827,0
+                -58.380552,-34.638673,0
+                -58.38135,-34.637577,0
+                -58.382275,-34.636552,0
+                -58.383317,-34.635605,0
+                -58.384468,-34.634748,0
+                -58.385715,-34.633987,0
+                -58.387046,-34.63333,0
+                -58.388449,-34.632784,0
+                -58.389911,-34.632354,0
+                -58.391417,-34.632044,0
+                -58.392952,-34.631856,0
+                -58.394502,-34.631794,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <description><![CDATA[descripción: Zona 1<br>stroke: #555555<br>stroke-width: 2<br>stroke-opacity: 1<br>fill: #5eb706<br>fill-opacity: 0.5<br>Zona: 1<br>zona: ]]></description>
+        <styleUrl>#poly-0288D1-1200-120</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Zona 1</value>
+          </Data>
+          <Data name="stroke">
+            <value>#555555</value>
+          </Data>
+          <Data name="stroke-width">
+            <value>2</value>
+          </Data>
+          <Data name="stroke-opacity">
+            <value>1</value>
+          </Data>
+          <Data name="fill">
+            <value>#5eb706</value>
+          </Data>
+          <Data name="fill-opacity">
+            <value>0.5</value>
+          </Data>
+          <Data name="Zona">
+            <value>1</value>
+          </Data>
+          <Data name="zona">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -58.530329,-34.613458,0
+                -58.380497,-34.584151,0
+                -58.465403,-34.535161,0
+                -58.500614,-34.549693,0
+                -58.530329,-34.613458,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <description><![CDATA[descripción: Zona 3<br>stroke: #555555<br>stroke-width: 2<br>stroke-opacity: 1<br>fill: #210eaf<br>fill-opacity: 0.5<br>Zona: <br>zona: ]]></description>
+        <styleUrl>#poly-0F9D58-1200-117</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Zona 3</value>
+          </Data>
+          <Data name="stroke">
+            <value>#555555</value>
+          </Data>
+          <Data name="stroke-width">
+            <value>2</value>
+          </Data>
+          <Data name="stroke-opacity">
+            <value>1</value>
+          </Data>
+          <Data name="fill">
+            <value>#210eaf</value>
+          </Data>
+          <Data name="fill-opacity">
+            <value>0.5</value>
+          </Data>
+          <Data name="Zona">
+            <value/>
+          </Data>
+          <Data name="zona">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -58.461296,-34.704815,0
+                -58.425131,-34.662569,0
+                -58.431347,-34.634677,0
+                -58.529092,-34.653223,0
+                -58.461296,-34.704815,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <description><![CDATA[descripción: Zona 2<br>stroke: #555555<br>stroke-width: 2<br>stroke-opacity: 1<br>fill: #730c0c<br>fill-opacity: 0.5<br>Zona: <br>zona: 2]]></description>
+        <styleUrl>#poly-F57C00-1200-115</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Zona 2</value>
+          </Data>
+          <Data name="stroke">
+            <value>#555555</value>
+          </Data>
+          <Data name="stroke-width">
+            <value>2</value>
+          </Data>
+          <Data name="stroke-opacity">
+            <value>1</value>
+          </Data>
+          <Data name="fill">
+            <value>#730c0c</value>
+          </Data>
+          <Data name="fill-opacity">
+            <value>0.5</value>
+          </Data>
+          <Data name="Zona">
+            <value/>
+          </Data>
+          <Data name="zona">
+            <value>2</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -58.365334,-34.622143,0
+                -58.379571,-34.584125,0
+                -58.530982,-34.6137,0
+                -58.529087,-34.653078,0
+                -58.365334,-34.622143,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Clientes</name>
+      <Placemark>
+        <name>Polígono clientes1</name>
+        <styleUrl>#poly-FFEA00-1200-184-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -58.3750303,-34.6316144,0
+                -58.4004361,-34.6352867,0
+                -58.3956296,-34.651669,0
+                -58.3712537,-34.6463028,0
+                -58.3750303,-34.6316144,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Base 1</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -58.4560544,-34.6575998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
